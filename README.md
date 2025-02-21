@@ -1,2 +1,0 @@
-# Ganjina-Resume
-Resume
