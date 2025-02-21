@@ -63,6 +63,59 @@
         }
     
                 </style>
+
+    <style>
+        .hard-skills {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background: #12162d;
+            color: white;
+            border-radius: 10px;
+        }
+        .skill {
+            text-align: center;
+        }
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 8px solid #d32f2f;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .progress {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 8px solid gray;
+            position: absolute;
+            clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+        }
+        .p80 {
+            border-color: #d32f2f;
+            transform: rotate(288deg);
+        }
+        .p90 {
+            border-color: #d32f2f;
+            transform: rotate(324deg);
+        }
+        .p85 {
+            border-color: #d32f2f;
+            transform: rotate(306deg);
+        }
+        .label {
+            position: absolute;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+        }
+        .sidebar p { color: black; }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -72,7 +125,7 @@
             </div>
             <h1 style="color: black;">Ганджина Рахимова</h1>
             <h2>UX/UI дизайнер</h2>
-            <p><strong>Дата рождения:</strong><br> <span style="color: white;">2 февраля 1992</span></p><style>.sidebar p { color: black; }</style>
+            <p><strong>Дата рождения:</strong><br> <span style="color: white;">2 февраля 1992</span></p>
             <p><strong>Адрес:</strong><br> <span style="color: white;"> г. Душанбе, ул. Телмана 9/1, кв.19</span></p>
             <p><strong>Контакт:</strong><br> <span style="color: white;"> +992 90 1000 979</span></p>
             <p><strong>Email:</strong><br> <span style="color: white;"> takhiriyan02@gmail.com</span></p>
